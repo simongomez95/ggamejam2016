@@ -27,7 +27,7 @@ public class Transformacion : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetButton("Fire1") && allowTransform == true)
+        if (Input.GetButton("TransformBear") && allowTransform == true)
         {
             //anim.SetTrigger("Attack");
             Transformar();
