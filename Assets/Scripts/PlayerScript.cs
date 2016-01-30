@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerScript : MonoBehaviour {
 	bool salto = true;
 	public float speed;
-	public GameObject bullet;
+	//public GameObject bullet;
 	float movingSpeed = 0;
 	private Rigidbody2D rb2D;  
 	//Animator anim;
@@ -19,7 +19,7 @@ public class PlayerScript : MonoBehaviour {
 
 	IEnumerator Fire(){
 		allowFire = false;
-		Instantiate(bullet, transform.position, transform.rotation);
+		//Instantiate(bullet, transform.position, transform.rotation);
 		yield return new WaitForSeconds (0.5f);
 		allowFire = true;
 	}
@@ -53,6 +53,7 @@ public class PlayerScript : MonoBehaviour {
 		if (Input.GetKeyDown ("space")&& salto == true){
 			salto = false;
 			rb2D = GetComponent<Rigidbody2D> ();
+            // crear variable global para cambiar fuerza del salto
 			rb2D.AddForce (Vector2.up * 10, ForceMode2D.Impulse);
 		} 
 		if (transform.position.y < (1)) {

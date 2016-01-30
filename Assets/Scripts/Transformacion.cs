@@ -20,8 +20,7 @@ public class Transformacion : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        //transPj = player.GetComponent<TransformPj>;
-        //plyscr = player.GetComponent<PlayerScript>;
+        
 	
 	}
 	
