@@ -79,6 +79,7 @@ public class TransformPj : MonoBehaviour {
             this.GetComponent<Rigidbody2D>().isKinematic = false;
             this.GetComponent<BoxCollider2D>().enabled = true;
             aura.SetActive(false);
+            allowTransform = true;
 
         }
 	}

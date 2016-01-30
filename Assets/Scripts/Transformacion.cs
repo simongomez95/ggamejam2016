@@ -25,7 +25,7 @@ public class Transformacion : MonoBehaviour {
 	void Update ()
     {
         Debug.Log(tiempoTrans.ToString());
-        Debug.Log(Salto.enAura.ToString()); 
+        //Debug.Log(Salto.enAura.ToString()); 
 
         if (tiempoTrans < 0)
         {
@@ -42,6 +42,11 @@ public class Transformacion : MonoBehaviour {
         if (estadoMundo == 1)
         {
             tiempoTrans = tiempoTrans - Time.deltaTime;
+        }
+        else
+        {
+            tiempoTrans = 10;
+            allowTransform = true;
         }
     }
 
