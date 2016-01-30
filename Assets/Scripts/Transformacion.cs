@@ -5,11 +5,7 @@ public class Transformacion : MonoBehaviour {
 
     //public GameObject player;
     public TransformPj transPj;
-    public PlayerScript plyscr;
-
-    public GameObject bear;
-    public GameObject squirrel;
-    public GameObject wolf;
+    public Salto plyscr;
 
     public Transform player;
 
@@ -29,7 +25,7 @@ public class Transformacion : MonoBehaviour {
 	void Update ()
     {
         
-        if (tiempoTrans < 0 || PlayerScript.enAura == false)
+        if (tiempoTrans < 0 || Salto.enAura == false)
         {
             Application.Quit();
         }

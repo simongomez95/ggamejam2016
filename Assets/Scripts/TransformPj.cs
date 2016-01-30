@@ -20,7 +20,12 @@ public class TransformPj : MonoBehaviour {
         {
             case 1:
                 GameObject bearInstance = Instantiate(bear, transform.position, Quaternion.identity) as GameObject;
-                bearInstance.transform.position = this.transform.position;
+                break;
+            case 2:
+                GameObject squirrelInstance = Instantiate(squirrel, transform.position, Quaternion.identity) as GameObject;
+                break;
+            case 3:
+                GameObject wolfInstance = Instantiate(wolf, transform.position, Quaternion.identity) as GameObject;
                 break;
         }
     }
@@ -32,11 +37,11 @@ public class TransformPj : MonoBehaviour {
             //anim.SetTrigger("Attack");
             Transformar(1);
         }
-        else if (Input.GetButton("TransformSquirrel"))
+        else if (Input.GetButton("TransformSquirrel") && allowTransform == true)
         {
             Transformar(2);
         }
-        else if (Input.GetButton("TransformWolf"))
+        else if (Input.GetButton("TransformWolf") && allowTransform == true)
         {
             Transformar(3);
         }
@@ -44,8 +49,10 @@ public class TransformPj : MonoBehaviour {
 
     void Transformar(int forma)
     {
+        this.GetComponent<Salto>().enabled = false;
+        this.GetComponent<Rigidbody2D>().isKinematic = true;
         CambiarForma(forma);
-        this.GetComponent<PlayerScript>().enabled = false;
+        // this.GetComponent<PlayerScript>().enabled = false;        
         allowTransform = false;
         Transformacion.estadoMundo = 1;
     }
