@@ -6,13 +6,13 @@ public class TransformPj : MonoBehaviour {
 
     public GameObject bear;
 
-    public void Transformar(int forma)
+    public void CambiarForma(int forma)
     {
         switch (forma)
         {
             case 1:
                 Instantiate(bear, this.transform.position, this.transform.rotation);
-                gameObject.GetComponent<PlayerScript>().enabled = false;
+                //gameObject.GetComponent<PlayerScript>().enabled = false;
                 break;
         }
     }
