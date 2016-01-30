@@ -3,8 +3,9 @@ using System.Collections;
 
 public class Transformacion : MonoBehaviour {
 
+    //public GameObject player;
     public TransformPj transPj;
-    public PlayerScript playerScr;
+    public PlayerScript plyscr;
 
     int estadoMundo;
     bool allowTransform = true;
@@ -12,14 +13,15 @@ public class Transformacion : MonoBehaviour {
 
     void Transformar()
     {
-        transPj.Transformar(1);
-        transPj.enabled = false;
+        transPj.CambiarForma(1);
+        plyscr.enabled = false;
         allowTransform = false;
     }
 
 	// Use this for initialization
 	void Start () {
-        
+        //transPj = player.GetComponent<TransformPj>;
+        //plyscr = player.GetComponent<PlayerScript>;
 	
 	}
 	
