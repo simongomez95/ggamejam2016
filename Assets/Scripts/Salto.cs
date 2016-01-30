@@ -2,10 +2,11 @@
 using System.Collections;
 
 public class PlayerScript : MonoBehaviour {
-
+	bool salto = true;
 	public float speed;
 	public GameObject bullet;
 	float movingSpeed = 0;
+	private Rigidbody2D rb2D;  
 	//Animator anim;
 	bool allowFire = true;
 
@@ -32,6 +33,8 @@ public class PlayerScript : MonoBehaviour {
 		//} else {
 		//	anim.SetBool("isMoving", false);
 		//}
+
+
 	}
 
 	void OnTriggerEnter2D() {
@@ -47,9 +50,16 @@ public class PlayerScript : MonoBehaviour {
 		//Movimiento en el mapa
 		float input_y = Input.GetAxis("Vertical");
 		float input_x = Input.GetAxis("Horizontal");
+		if (Input.GetKeyDown ("space")&& salto == true){
+			salto = false;
+			rb2D = GetComponent<Rigidbody2D> ();
+			rb2D.AddForce (Vector2.up * 10, ForceMode2D.Impulse);
+		} 
+		if (transform.position.y < (1)) {
+			salto = true;
+		}
 
 		transform.position = new Vector3(transform.position.x + input_x * speed, transform.position.y, transform.position.z);
-
 
 	}
 }
