@@ -81,11 +81,12 @@ public class Salto : MonoBehaviour {
 				_timeHeld += Time.deltaTime;
 			}
 			if (Input.GetKeyUp (KeyCode.Space)) {
-				Jump ();
+					Jump ();
 			}
 		} 
 		if (transform.position.y < (1)) {
 			salto = true;
+
 		}
 		float input_y = Input.GetAxis("Vertical");
 		float input_x = Input.GetAxis("Horizontal");
