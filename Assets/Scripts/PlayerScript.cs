@@ -6,14 +6,14 @@ public class PlayerScript : MonoBehaviour {
 	public float speed;
 	public GameObject bullet;
 	float movingSpeed = 0;
-	Animator anim;
+	//Animator anim;
 	bool allowFire = true;
 
 
 
 	void Start()
 	{
-		anim = GetComponent<Animator> ();
+		//anim = GetComponent<Animator> ();
 	}
 
 	IEnumerator Fire(){
@@ -27,11 +27,11 @@ public class PlayerScript : MonoBehaviour {
 	{
 		
 
-		if (Input.GetAxis ("Vertical") != 0 || Input.GetAxis ("Horizontal") != 0) {
-			anim.SetBool ("isMoving", true);			
-		} else {
-			anim.SetBool("isMoving", false);
-		}
+		//if (Input.GetAxis ("Vertical") != 0 || Input.GetAxis ("Horizontal") != 0) {
+		//	anim.SetBool ("isMoving", true);			
+		//} else {
+		//	anim.SetBool("isMoving", false);
+		//}
 	}
 
 	void OnTriggerEnter2D() {
@@ -41,12 +41,12 @@ public class PlayerScript : MonoBehaviour {
 	{
 
 		//limitar la rotacion a ejes XY
-		transform.eulerAngles = new Vector3 (0, 0, transform.eulerAngles.z);
-		GetComponent<Rigidbody2D>().angularVelocity = 0;
+		//transform.eulerAngles = new Vector3 (0, 0, transform.eulerAngles.z);
+		//GetComponent<Rigidbody2D>().angularVelocity = 0;
 
 		//Movimiento en el mapa
-		float input_y = Input.GetAxis ("Vertical");
-		float input_x = Input.GetAxis ("Horizontal");
+		float input_y = Input.GetAxis("Vertical");
+		float input_x = Input.GetAxis("Horizontal");
 
 		transform.position = new Vector3(transform.position.x + input_x * speed, transform.position.y, transform.position.z);
 
