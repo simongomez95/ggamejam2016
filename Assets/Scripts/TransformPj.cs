@@ -10,6 +10,8 @@ public class TransformPj : MonoBehaviour {
     public GameObject squirrel;
     public GameObject wolf;
 
+    GameObject animalInstance;
+
     bool allowTransform = true;
 
 
@@ -19,13 +21,13 @@ public class TransformPj : MonoBehaviour {
         switch (forma)
         {
             case 1:
-                GameObject bearInstance = Instantiate(bear, transform.position, Quaternion.identity) as GameObject;
+                animalInstance = Instantiate(bear, transform.position, Quaternion.identity) as GameObject;
                 break;
             case 2:
-                GameObject squirrelInstance = Instantiate(squirrel, transform.position, Quaternion.identity) as GameObject;
+                animalInstance = Instantiate(squirrel, transform.position, Quaternion.identity) as GameObject;
                 break;
             case 3:
-                GameObject wolfInstance = Instantiate(wolf, transform.position, Quaternion.identity) as GameObject;
+                animalInstance = Instantiate(wolf, transform.position, Quaternion.identity) as GameObject;
                 break;
         }
     }
@@ -51,6 +53,7 @@ public class TransformPj : MonoBehaviour {
     {
         this.GetComponent<Salto>().enabled = false;
         this.GetComponent<Rigidbody2D>().isKinematic = true;
+        this.GetComponent<BoxCollider2D>().enabled = false;
         CambiarForma(forma);
         // this.GetComponent<PlayerScript>().enabled = false;        
         allowTransform = false;
@@ -71,7 +74,12 @@ public class TransformPj : MonoBehaviour {
             aura.SetActive(true);
         }else
         {
+            Destroy(animalInstance);
+            this.GetComponent<Salto>().enabled = true;
+            this.GetComponent<Rigidbody2D>().isKinematic = false;
+            this.GetComponent<BoxCollider2D>().enabled = true;
             aura.SetActive(false);
+
         }
 	}
 }

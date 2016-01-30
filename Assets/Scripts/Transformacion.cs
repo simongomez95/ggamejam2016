@@ -27,10 +27,17 @@ public class Transformacion : MonoBehaviour {
         Debug.Log(tiempoTrans.ToString());
         Debug.Log(Salto.enAura.ToString()); 
 
-        if (tiempoTrans < 0 && Salto.enAura == false)
+        if (tiempoTrans < 0)
         {
-            Debug.Log("WTF");
-            Application.Quit();
+            if (Salto.enAura == false)
+            {
+                Debug.Log("WTF");
+                Application.Quit();
+            }
+            else
+            {
+                estadoMundo = 0;
+            }
         }
         if (estadoMundo == 1)
         {

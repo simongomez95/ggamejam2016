@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Environment
   - Aura
+  - Animal
   layers:
   - Default
   - TransparentFX
