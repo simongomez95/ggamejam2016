@@ -6,14 +6,16 @@ public class PlayerScript : MonoBehaviour {
 	public float speed;
 	//public GameObject bullet;
 	float movingSpeed = 0;
-	private Rigidbody2D rb2D;  
-	//Animator anim;
-	bool allowFire = true;
+	private Rigidbody2D rb2D;
+    //Animator anim;
+    bool allowTransform = true;
+    bool allowFire = true;
     static public bool enAura = false;
 
 
+    
 
-	void Start()
+    void Start()
 	{
 		//anim = GetComponent<Animator> ();
 	}
@@ -27,8 +29,8 @@ public class PlayerScript : MonoBehaviour {
 
 	void Update()
 	{
-		
 
+        
 		//if (Input.GetAxis ("Vertical") != 0 || Input.GetAxis ("Horizontal") != 0) {
 		//	anim.SetBool ("isMoving", true);			
 		//} else {
