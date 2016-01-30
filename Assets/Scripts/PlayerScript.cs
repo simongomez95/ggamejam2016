@@ -9,6 +9,7 @@ public class PlayerScript : MonoBehaviour {
 	private Rigidbody2D rb2D;  
 	//Animator anim;
 	bool allowFire = true;
+    static public bool enAura = false;
 
 
 
@@ -37,8 +38,20 @@ public class PlayerScript : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter2D() {
+	void OnTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.tag=="Aura")
+        {
+            enAura = true;
+        }
 	}
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Aura")
+        {
+            enAura = false;
+        }
+    }
 
 	void FixedUpdate()
 	{
