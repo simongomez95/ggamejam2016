@@ -13,6 +13,6 @@ public class CamaraSencilla : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//Desplaza la camara junto con el jugador
-		this.transform.position = new Vector3 (target.position.x, target.position.y, this.transform.position.z);
+		this.transform.position = new Vector3 (target.position.x, this.transform.position.y, this.transform.position.z);
 	}
 }

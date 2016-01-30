@@ -102,6 +102,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aura: {fileID: 101744}
+  bear: {fileID: 167696, guid: b85d950b98a72b744a4e398333e68d9c, type: 2}
+  squirrel: {fileID: 145548, guid: 0427fa592d773e848943b37f17061b53, type: 2}
+  wolf: {fileID: 159646, guid: 81e1b33c566183540859a59ca4083bf9, type: 2}
 --- !u!114 &11480946
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -197,6 +200,14 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: squirrel
+      value: 
+      objectReference: {fileID: 145548, guid: 0427fa592d773e848943b37f17061b53, type: 2}
+    - target: {fileID: 0}
+      propertyPath: wolf
+      value: 
+      objectReference: {fileID: 159646, guid: 81e1b33c566183540859a59ca4083bf9, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 129180}
