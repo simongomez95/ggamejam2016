@@ -10,6 +10,8 @@ public class TransformPj : MonoBehaviour {
     public GameObject squirrel;
     public GameObject wolf;
 
+    GameObject animalInstance;
+
     bool allowTransform = true;
 
 
@@ -19,8 +21,13 @@ public class TransformPj : MonoBehaviour {
         switch (forma)
         {
             case 1:
-                GameObject bearInstance = Instantiate(bear, transform.position, Quaternion.identity) as GameObject;
-                bearInstance.transform.position = this.transform.position;
+                animalInstance = Instantiate(bear, transform.position, Quaternion.identity) as GameObject;
+                break;
+            case 2:
+                animalInstance = Instantiate(squirrel, transform.position, Quaternion.identity) as GameObject;
+                break;
+            case 3:
+                animalInstance = Instantiate(wolf, transform.position, Quaternion.identity) as GameObject;
                 break;
         }
     }
@@ -32,11 +39,11 @@ public class TransformPj : MonoBehaviour {
             //anim.SetTrigger("Attack");
             Transformar(1);
         }
-        else if (Input.GetButton("TransformSquirrel"))
+        else if (Input.GetButton("TransformSquirrel") && allowTransform == true)
         {
             Transformar(2);
         }
-        else if (Input.GetButton("TransformWolf"))
+        else if (Input.GetButton("TransformWolf") && allowTransform == true)
         {
             Transformar(3);
         }
@@ -44,8 +51,11 @@ public class TransformPj : MonoBehaviour {
 
     void Transformar(int forma)
     {
+        this.GetComponent<Salto>().enabled = false;
+        this.GetComponent<Rigidbody2D>().isKinematic = true;
+        this.GetComponent<BoxCollider2D>().enabled = false;
         CambiarForma(forma);
-        this.GetComponent<PlayerScript>().enabled = false;
+        // this.GetComponent<PlayerScript>().enabled = false;        
         allowTransform = false;
         Transformacion.estadoMundo = 1;
     }
@@ -64,7 +74,13 @@ public class TransformPj : MonoBehaviour {
             aura.SetActive(true);
         }else
         {
+            Destroy(animalInstance);
+            this.GetComponent<Salto>().enabled = true;
+            this.GetComponent<Rigidbody2D>().isKinematic = false;
+            this.GetComponent<BoxCollider2D>().enabled = true;
             aura.SetActive(false);
+            allowTransform = true;
+
         }
 	}
 }

@@ -17,9 +17,24 @@ public class Salto : MonoBehaviour {
 	public float _maxJumpForce;
 	public float _leftJumpForce = 1.0f;
 
+    static public bool enAura = false;
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Aura" && this.gameObject.tag != "Player")
+        {
+            enAura = true;
+        }
+    }
 
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Aura" && this.gameObject.tag != "Player")
+        {
+            enAura = false;
+        }
+    }
 
-	void Start()
+    void Start()
 	{
 		//anim = GetComponent<Animator> ();
 	}
@@ -74,13 +89,13 @@ public class Salto : MonoBehaviour {
 	{
 		if (salto == true) {
 			salto = false;
-			if (Input.GetKeyDown (KeyCode.Space)) {
+			if (Input.GetButtonDown("Jump")) {
 				_timeHeld = 0f;
 			}
-			if (Input.GetKey (KeyCode.Space)) {
+			if (Input.GetButton ("Jump")) {
 				_timeHeld += Time.deltaTime;
 			}
-			if (Input.GetKeyUp (KeyCode.Space)) {
+			if (Input.GetButtonUp ("Jump")) {
 					Jump ();
 			}
 		} 
@@ -88,7 +103,7 @@ public class Salto : MonoBehaviour {
 			salto = true;
 
 		}
-		float input_y = Input.GetAxis("Vertical");
+		//float input_y = Input.GetAxis("Vertical");
 		float input_x = Input.GetAxis("Horizontal");
 		transform.position = new Vector3(transform.position.x + input_x * speed, transform.position.y, transform.position.z);
 	}

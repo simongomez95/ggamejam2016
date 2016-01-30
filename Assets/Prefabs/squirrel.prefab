@@ -9,12 +9,12 @@ GameObject:
   m_Component:
   - 4: {fileID: 442974}
   - 212: {fileID: 21290676}
-  - 50: {fileID: 5032676}
-  - 61: {fileID: 6194266}
-  - 114: {fileID: 11484982}
+  - 114: {fileID: 11488940}
+  - 50: {fileID: 5094852}
+  - 61: {fileID: 6152488}
   m_Layer: 0
   m_Name: squirrel
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,43 +26,41 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 145548}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7957596, y: -1.7618774, z: 0}
+  m_LocalPosition: {x: 1.79575956, y: -1.76187742, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &5032676
+--- !u!50 &5094852
 Rigidbody2D:
   serializedVersion: 2
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 145548}
-  m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.3
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &6194266
+--- !u!61 &6152488
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 145548}
   m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.71}
---- !u!114 &11484982
+  m_Size: {x: .699999988, y: .709999979}
+--- !u!114 &11488940
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -70,10 +68,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 145548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 428dbecfdbd5d2b43941b4235efcad8d, type: 3}
+  m_Script: {fileID: 11500000, guid: d2a241594f659774484ce986529335ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: .100000001
   bullet: {fileID: 0}
   _timeHeld: 0
   _timeForFullJump: 2
@@ -101,15 +99,13 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3ea1775dec00ba442a00b3ef6f813b8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -118,16 +114,20 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
-      propertyPath: _maxJumpForce
-      value: 4
+      propertyPath: speed
+      value: .100000001
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _minJumpForce
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 0}
-      propertyPath: m_GravityScale
-      value: 0.3
+      propertyPath: _maxJumpForce
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Animal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

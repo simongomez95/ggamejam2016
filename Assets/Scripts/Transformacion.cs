@@ -5,15 +5,11 @@ public class Transformacion : MonoBehaviour {
 
     //public GameObject player;
     public TransformPj transPj;
-    public PlayerScript plyscr;
-
-    public GameObject bear;
-    public GameObject squirrel;
-    public GameObject wolf;
+    public Salto plyscr;
 
     public Transform player;
 
-    double tiempoTrans;
+    double tiempoTrans = 10;
     static public int estadoMundo = 0;
     bool allowTransform = true;
 
@@ -28,13 +24,30 @@ public class Transformacion : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        
-        if (tiempoTrans < 0 || PlayerScript.enAura == false)
-        {
-            Application.Quit();
-        }
-        tiempoTrans = tiempoTrans - Time.deltaTime;
+        Debug.Log(tiempoTrans.ToString());
+        //Debug.Log(Salto.enAura.ToString()); 
 
+        if (tiempoTrans < 0)
+        {
+            if (Salto.enAura == false)
+            {
+                Debug.Log("WTF");
+                Application.Quit();
+            }
+            else
+            {
+                estadoMundo = 0;
+            }
+        }
+        if (estadoMundo == 1)
+        {
+            tiempoTrans = tiempoTrans - Time.deltaTime;
+        }
+        else
+        {
+            tiempoTrans = 10;
+            allowTransform = true;
+        }
     }
 
    

@@ -4,9 +4,10 @@ using System.Collections;
 public class BackgroundChange : MonoBehaviour {
 
     public Sprite spriteTrans;
+    public Sprite spriteNormal;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
@@ -15,6 +16,10 @@ public class BackgroundChange : MonoBehaviour {
         if (Transformacion.estadoMundo==1)
         {
             this.GetComponent<SpriteRenderer>().sprite = spriteTrans;
+        }
+        else
+        {
+            this.GetComponent<SpriteRenderer>().sprite = spriteNormal;
         }
 	
 	}
