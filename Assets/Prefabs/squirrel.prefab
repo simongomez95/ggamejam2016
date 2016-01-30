@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2a241594f659774484ce986529335ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: .100000001
   bullet: {fileID: 0}
   _timeHeld: 0
   _timeForFullJump: 2
@@ -115,7 +115,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: speed
-      value: 1
+      value: .100000001
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _minJumpForce

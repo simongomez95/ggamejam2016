@@ -9,7 +9,7 @@ public class Transformacion : MonoBehaviour {
 
     public Transform player;
 
-    double tiempoTrans;
+    double tiempoTrans = 10;
     static public int estadoMundo = 0;
     bool allowTransform = true;
 
@@ -24,13 +24,18 @@ public class Transformacion : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        
-        if (tiempoTrans < 0 || Salto.enAura == false)
+        Debug.Log(tiempoTrans.ToString());
+        Debug.Log(Salto.enAura.ToString()); 
+
+        if (tiempoTrans < 0 && Salto.enAura == false)
         {
+            Debug.Log("WTF");
             Application.Quit();
         }
-        tiempoTrans = tiempoTrans - Time.deltaTime;
-
+        if (estadoMundo == 1)
+        {
+            tiempoTrans = tiempoTrans - Time.deltaTime;
+        }
     }
 
    

@@ -225,6 +225,7 @@ GameObject:
   - 124: {fileID: 275177598}
   - 92: {fileID: 275177597}
   - 81: {fileID: 275177596}
+  - 114: {fileID: 275177601}
   m_Layer: 0
   m_Name: Main camera
   m_TagString: Untagged
@@ -299,6 +300,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!114 &275177601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 275177595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6a083ad4853fd43932e3434155a5fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1129896998}
 --- !u!1001 &514561411
 Prefab:
   m_ObjectHideFlags: 0
@@ -349,6 +362,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc6c5c4e66c390b40ae0f4b2f6aa0cd4, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1129896998 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 498174, guid: cfbbb2c10930642779529534dd300bca, type: 2}
+  m_PrefabInternal: {fileID: 1852230234}
 --- !u!1001 &1852230234
 Prefab:
   m_ObjectHideFlags: 0

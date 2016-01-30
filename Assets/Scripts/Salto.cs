@@ -20,7 +20,7 @@ public class Salto : MonoBehaviour {
     static public bool enAura = false;
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Aura")
+        if (other.gameObject.tag == "Aura" && this.gameObject.tag != "Player")
         {
             enAura = true;
         }
@@ -28,7 +28,7 @@ public class Salto : MonoBehaviour {
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Aura")
+        if (other.gameObject.tag == "Aura" && this.gameObject.tag != "Player")
         {
             enAura = false;
         }
