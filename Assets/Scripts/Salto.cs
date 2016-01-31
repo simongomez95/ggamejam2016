@@ -17,6 +17,8 @@ public class Salto : MonoBehaviour {
 	public float _maxJumpForce;
 	public float _leftJumpForce = 1.0f;
 
+    Animator anim;
+
     static public bool enAura = false;
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -36,7 +38,7 @@ public class Salto : MonoBehaviour {
 
     void Start()
 	{
-		//anim = GetComponent<Animator> ();
+		anim = GetComponent<Animator> ();
 	}
 
 	/*void Update()
@@ -105,7 +107,12 @@ public class Salto : MonoBehaviour {
 		}
 		//float input_y = Input.GetAxis("Vertical");
 		float input_x = Input.GetAxis("Horizontal");
-		transform.position = new Vector3(transform.position.x + input_x * speed, transform.position.y, transform.position.z);
+        if (input_x != 0) {
+        	anim.SetBool ("corriendo", true);			
+        } else {
+        	anim.SetBool("corriendo", false);
+        }
+        transform.position = new Vector3(transform.position.x + input_x * speed, transform.position.y, transform.position.z);
 	}
 
 	public void Jump()
