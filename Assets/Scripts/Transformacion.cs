@@ -26,8 +26,11 @@ public class Transformacion : MonoBehaviour {
     {
         Debug.Log(tiempoTrans.ToString());
         //Debug.Log(Salto.enAura.ToString()); 
-
-        if (tiempoTrans < 0)
+        if(Salto2.enAura && Input.GetButton("Destrans"))
+        {
+            estadoMundo = 0;
+        }
+        else if (tiempoTrans < 0)
         {
             if (Salto2.enAura == false)
             {
