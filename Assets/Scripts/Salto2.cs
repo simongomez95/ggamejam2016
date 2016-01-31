@@ -19,7 +19,8 @@ public class Salto2 : MonoBehaviour {
 	public float _maxJumpForce;
 	public float _leftJumpForce = 1.0f;
     Animator anim;
-	static public bool enAura = false;
+    bool m_FacingRight = true;
+    static public bool enAura = false;
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.tag == "Aura" && this.gameObject.tag != "Player")
@@ -42,14 +43,7 @@ public class Salto2 : MonoBehaviour {
 	}
 	void Update ()
 	{
-        if(transform.rotation.z < -45)
-        {
-            transform.rotation = Quaternion.Euler(0.0f, 0.0f, -45.0f);
-        }
-        if (transform.rotation.z > 45)
-        {
-            transform.rotation = Quaternion.Euler(0.0f, 0.0f, 45.0f);
-        }
+        
         if (Input.GetButton ("Jump")) {
 			numSaltos += 1;
 			if (numSaltos == 1 ||numSaltos == 2) {
@@ -62,13 +56,22 @@ public class Salto2 : MonoBehaviour {
         {
             if (input_x < 0)
             {
-                //m_FacingRight = false;
-                transform.localRotation = Quaternion.Euler(0, 180, 0);
+                
+                //transform.localRotation = Quaternion.Euler(transform.rotation.x, 180, transform.rotation.z);
+                if (m_FacingRight)
+                {
+                    transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+                }
+                m_FacingRight = false;
             }
             else
             {
-                //m_FacingRight = true;
-                transform.localRotation = Quaternion.Euler(0, 0, 0);
+                if (!m_FacingRight)
+                {
+                    transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+                }
+                m_FacingRight = true;
+                //transform.localRotation = Quaternion.Euler(transform.rotation.x, 0, transform.rotation.z);
             }
             anim.SetBool("corriendo", true);
             Debug.Log("corriendo");

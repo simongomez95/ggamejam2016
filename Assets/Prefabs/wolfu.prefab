@@ -116,12 +116,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6376e8a14b4c34659a9e90945b1fe3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tope: 9
   speed: .100000001
   bullet: {fileID: 0}
   _timeHeld: 0
   _timeForFullJump: 2
-  _minJumpForce: 4
-  _maxJumpForce: 6
+  _minJumpForce: 2
+  _maxJumpForce: 3
   _leftJumpForce: 1
 --- !u!114 &11478734
 MonoBehaviour:
@@ -171,11 +172,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: _minJumpForce
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _maxJumpForce
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: speed
@@ -198,6 +199,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b48cfeb73a63aba408baea70f8e6d697, type: 2}
+    - target: {fileID: 0}
+      propertyPath: tope
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 159646}
