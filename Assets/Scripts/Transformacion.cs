@@ -35,7 +35,7 @@ public class Transformacion : MonoBehaviour {
             if (Salto2.enAura == false)
             {
 
-                Application.LoadLevel("ads");
+                Application.Quit();
             }
             else
             {
