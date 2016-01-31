@@ -9,7 +9,7 @@ public class Transformacion : MonoBehaviour {
 
     public Transform player;
 
-    double tiempoTrans = 10;
+    double tiempoTrans = 10;  
     static public int estadoMundo = 0;
     bool allowTransform = true;
 
@@ -57,4 +57,5 @@ public class Transformacion : MonoBehaviour {
     {
         estadoMundo = estado;
     }
+
 }
