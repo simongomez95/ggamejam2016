@@ -26,8 +26,11 @@ public class Transformacion : MonoBehaviour {
     {
         Debug.Log(tiempoTrans.ToString());
         //Debug.Log(Salto.enAura.ToString()); 
-
-        if (tiempoTrans < 0)
+        if(Salto2.enAura && Input.GetButton("Destrans"))
+        {
+            estadoMundo = 0;
+        }
+        else if (tiempoTrans < 0)
         {
             if (Salto2.enAura == false)
             {
@@ -36,17 +39,46 @@ public class Transformacion : MonoBehaviour {
             }
             else
             {
+                
                 estadoMundo = 0;
             }
         }
         if (estadoMundo == 1)
         {
+            PararTiempo(0);
             tiempoTrans = tiempoTrans - Time.deltaTime;
         }
         else
         {
+            PararTiempo(1);
             tiempoTrans = 10;
             allowTransform = true;
+        }
+    }
+
+    void PararTiempo(int funcion)
+    {
+        GameObject[] objetos = GameObject.FindGameObjectsWithTag("Environment");
+        if (funcion == 0)
+        {
+            foreach (GameObject objeto in objetos)
+            {
+                if (objeto.GetComponent<Rigidbody2D>() != null)
+                {
+                    objeto.GetComponent<Rigidbody2D>().isKinematic = true;
+                }
+            }
+        }
+        else if (funcion==1)
+        {
+            //Despara el tiempo?
+            foreach (GameObject objeto in objetos)
+            {
+                if (objeto.GetComponent<Rigidbody2D>() != null)
+                {
+                    objeto.GetComponent<Rigidbody2D>().isKinematic = false;
+                }
+            }
         }
     }
 

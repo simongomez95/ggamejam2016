@@ -28,8 +28,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159646}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.8946178, y: -1.9234972, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 205.809219, y: 19.1918755, z: 0}
+  m_LocalScale: {x: 1.86341226, y: 1.8634119, z: 1.8634119}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -42,7 +42,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 159646}
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 1
   m_GravityScale: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -121,8 +121,8 @@ MonoBehaviour:
   bullet: {fileID: 0}
   _timeHeld: 0
   _timeForFullJump: 2
-  _minJumpForce: 2
-  _maxJumpForce: 3
+  _minJumpForce: 3
+  _maxJumpForce: 4
   _leftJumpForce: 1
 --- !u!114 &11478734
 MonoBehaviour:
@@ -172,11 +172,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: _minJumpForce
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _maxJumpForce
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: speed
@@ -202,6 +202,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: tope
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_AngularDrag
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

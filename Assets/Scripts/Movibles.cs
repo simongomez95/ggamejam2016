@@ -8,6 +8,11 @@ public class Movibles : MonoBehaviour {
         if (other.gameObject.tag == "Player" || other.gameObject.tag == "Animal")
         {
             GetComponent<Rigidbody2D>().mass = 100;
+            
+        }
+        else
+        {
+            GetComponent<Rigidbody2D>().isKinematic = false;
         }
     }
 

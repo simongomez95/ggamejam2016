@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 152b7d1949c1860418f71847e5fb51fd
+timeCreated: 1454244478
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: volando_0
+    21300002: volando_1
+    21300004: volando_2
+    21300006: volando_3
+    21300008: volando_4
+    21300010: volando_5
+    21300012: volando_6
+    21300014: volando_7
+    21300016: volando_8
+    21300018: volando_9
+    21300020: volando_10
+    21300022: volando_11
+    21300024: volando_12
+    21300026: volando_13
+    21300028: volando_14
+    21300030: volando_15
+    21300032: volando_16
+    21300034: volando_17
+    21300036: volando_18
+    21300038: volando_19
+    21300040: volando_20
+    21300042: volando_21
+    21300044: volando_22
+    21300046: volando_23
+    21300048: volando_24
+    21300050: volando_25
+    21300052: volando_26
+    21300054: volando_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: volando_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 224
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 788
+        width: 220
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 788
+        width: 215
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 788
+        width: 209
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 657
+        width: 207
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 657
+        width: 205
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 657
+        width: 203
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_7
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 657
+        width: 200
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 526
+        width: 196
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 526
+        width: 215
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_10
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 526
+        width: 216
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_11
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 526
+        width: 216
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 395
+        width: 201
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 395
+        width: 208
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 395
+        width: 193
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_15
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 395
+        width: 201
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 264
+        width: 205
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 264
+        width: 208
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_18
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 264
+        width: 223
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_19
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 264
+        width: 222
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 133
+        width: 209
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_21
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 133
+        width: 214
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_22
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 133
+        width: 220
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_23
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 133
+        width: 216
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2
+        width: 212
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2
+        width: 219
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_26
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 2
+        width: 218
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: volando_27
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2
+        width: 214
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

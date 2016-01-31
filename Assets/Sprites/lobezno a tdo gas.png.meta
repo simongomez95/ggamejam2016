@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: e47d608783144bd418400189de9d8914
+timeCreated: 1454261510
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lobezno a tdo gas_0
+    21300002: lobezno a tdo gas_1
+    21300004: lobezno a tdo gas_2
+    21300006: lobezno a tdo gas_3
+    21300008: lobezno a tdo gas_4
+    21300010: lobezno a tdo gas_5
+    21300012: lobezno a tdo gas_6
+    21300014: lobezno a tdo gas_7
+    21300016: lobezno a tdo gas_8
+    21300018: lobezno a tdo gas_9
+    21300020: lobezno a tdo gas_10
+    21300022: lobezno a tdo gas_11
+    21300024: lobezno a tdo gas_12
+    21300026: lobezno a tdo gas_13
+    21300028: lobezno a tdo gas_14
+    21300030: lobezno a tdo gas_15
+    21300032: lobezno a tdo gas_16
+    21300034: lobezno a tdo gas_17
+    21300036: lobezno a tdo gas_18
+    21300038: lobezno a tdo gas_19
+    21300040: lobezno a tdo gas_20
+    21300042: lobezno a tdo gas_21
+    21300044: lobezno a tdo gas_22
+    21300046: lobezno a tdo gas_23
+    21300048: lobezno a tdo gas_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: lobezno a tdo gas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 838
+        width: 299
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 835
+        width: 314
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 838
+        width: 322
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 348
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 699
+        width: 354
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_5
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 699
+        width: 356
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 563
+        width: 343
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 547
+        width: 301
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_8
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 561
+        width: 291
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_9
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 558
+        width: 295
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 326
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 428
+        width: 311
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 427
+        width: 294
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_13
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 426
+        width: 271
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 257
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 292
+        width: 257
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_16
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 285
+        width: 283
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 292
+        width: 292
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 297
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_19
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 146
+        width: 310
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_20
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 158
+        width: 321
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 325
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 37
+        width: 311
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_23
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 34
+        width: 292
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lobezno a tdo gas_24
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 12
+        width: 292
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

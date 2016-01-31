@@ -142,7 +142,7 @@ MonoBehaviour:
   _timeHeld: 0
   _timeForFullJump: 2
   _minJumpForce: 2
-  _maxJumpForce: 4
+  _maxJumpForce: 3
   _leftJumpForce: 1
 --- !u!212 &21290676
 SpriteRenderer:
@@ -189,7 +189,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _maxJumpForce
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
