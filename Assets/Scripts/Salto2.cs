@@ -53,6 +53,10 @@ public class Salto2 : MonoBehaviour {
 	}
 	void Update ()
 	{
+        if(transform.position.y < -16)
+        {
+            Application.Quit();
+        }
         
         if (Input.GetButton ("Jump")) {
 			numSaltos += 1;
@@ -126,7 +130,7 @@ public class Salto2 : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.tag == "Environment")
+        if(other.gameObject.tag == "Environment" || other.gameObject.tag == "Movible")
         {
             numSaltos = 0;
         }
