@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Salto2 : MonoBehaviour {
 	bool salto = true;
+	public float tope;
 	public static  int numSaltos=0;
 	public float speed;
 	public GameObject bullet;
@@ -79,14 +80,26 @@ public class Salto2 : MonoBehaviour {
 	{	
 
 		float verticalJumpForce = (_maxJumpForce - _minJumpForce) + _minJumpForce;
+		if (verticalJumpForce < tope) {
+			Vector2 resolvedJump = new Vector2 (0, verticalJumpForce);
+			rb2D = GetComponent<Rigidbody2D> ();
+			rb2D.AddForce (resolvedJump, ForceMode2D.Impulse);
+			Debug.Log (resolvedJump.ToString ());
+		} else {
+			Vector2 resolvedJump = new Vector2 (0, 0);
+			rb2D = GetComponent<Rigidbody2D> ();
+			rb2D.AddForce (resolvedJump, ForceMode2D.Impulse);
+			Debug.Log (resolvedJump.ToString ());
+			tope = 0;
+		}
 		//if (verticalJumpForce > _maxJumpForce)
 		//{
 		//	verticalJumpForce = _maxJumpForce;
 		//}
-		Vector2 resolvedJump = new Vector2(0, verticalJumpForce);
+		/*Vector2 resolvedJump = new Vector2(0, verticalJumpForce);
 		rb2D = GetComponent<Rigidbody2D> ();
 		rb2D.AddForce(resolvedJump, ForceMode2D.Impulse);
-		Debug.Log(resolvedJump.ToString());
+		Debug.Log(resolvedJump.ToString());*/
 	}
 
 
