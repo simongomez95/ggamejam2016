@@ -12,8 +12,8 @@ GameObject:
   - 114: {fileID: 11488940}
   - 50: {fileID: 5094852}
   - 60: {fileID: 6091518}
-  - 95: {fileID: 9535822}
   - 114: {fileID: 11404446}
+  - 95: {fileID: 9508904}
   m_Layer: 0
   m_Name: squirrel
   m_TagString: Animal
@@ -83,7 +83,7 @@ PolygonCollider2D:
       - {x: .136818409, y: -.0825521946}
       - {x: .226270914, y: -.133220673}
       - {x: .231118679, y: -.139055729}
---- !u!95 &9535822
+--- !u!95 &9508904
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -92,7 +92,7 @@ Animator:
   m_GameObject: {fileID: 145548}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d3a13fd874f085843969b1d16c932907, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2cb3b31861e1f1c4283ec80e7e678de6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -156,7 +156,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fe7a7afb3a07d0c4c85b4d4cc0eacfda, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b2af6e3d5c715c49a2616cde2c8992f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -192,7 +192,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fe7a7afb3a07d0c4c85b4d4cc0eacfda,
+      objectReference: {fileID: 21300000, guid: 7b2af6e3d5c715c49a2616cde2c8992f,
         type: 3}
     - target: {fileID: 0}
       propertyPath: m_Controller
