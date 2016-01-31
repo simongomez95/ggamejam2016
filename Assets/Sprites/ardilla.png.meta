@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: 7b2af6e3d5c715c49a2616cde2c8992f
+timeCreated: 1454226890
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ardilla_0
+    21300002: ardilla_1
+    21300004: ardilla_2
+    21300006: ardilla_3
+    21300008: ardilla_4
+    21300010: ardilla_5
+    21300012: ardilla_6
+    21300014: ardilla_7
+    21300016: ardilla_8
+    21300018: ardilla_9
+    21300020: ardilla_10
+    21300022: ardilla_11
+    21300024: ardilla_12
+    21300026: ardilla_13
+    21300028: ardilla_14
+    21300030: ardilla_15
+    21300032: ardilla_16
+    21300034: ardilla_17
+    21300036: ardilla_18
+    21300038: ardilla_19
+    21300040: ardilla_20
+    21300042: ardilla_21
+    21300044: ardilla_22
+    21300046: ardilla_23
+    21300048: ardilla_24
+    21300050: ardilla_25
+    21300052: ardilla_26
+    21300054: ardilla_27
+    21300056: ardilla_28
+    21300058: ardilla_29
+    21300060: ardilla_30
+    21300062: ardilla_31
+    21300064: ardilla_32
+    21300066: ardilla_33
+    21300068: ardilla_34
+    21300070: ardilla_35
+    21300072: ardilla_36
+    21300074: ardilla_37
+    21300076: ardilla_38
+    21300078: ardilla_39
+    21300080: ardilla_40
+    21300082: ardilla_41
+    21300084: ardilla_42
+    21300086: ardilla_43
+    21300088: ardilla_44
+    21300090: ardilla_45
+    21300092: ardilla_46
+    21300094: ardilla_47
+    21300096: ardilla_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ardilla_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 655.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 655.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 655.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 655.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 655.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 655.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 655.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 546.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 546.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 546.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_10
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 546.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 546.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_12
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 546.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_13
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 546.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 437.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 437.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 437.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 437.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_18
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 437.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_19
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 437.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_20
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 437.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 328.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_23
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 328.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_24
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 328.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_25
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 328.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_26
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 328.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_27
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 328.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 219.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_30
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 219.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_31
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 219.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_32
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 219.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_33
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 219.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_34
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 219.714294
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110.714287
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 110.714287
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_37
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 110.714287
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_38
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 110.714287
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_39
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 110.714287
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_40
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 110.714287
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_41
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 110.714287
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.7142868
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_43
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1.7142868
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_44
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1.7142868
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_45
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1.7142868
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_46
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1.7142868
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_47
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1.7142868
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ardilla_48
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1.7142868
+        width: 129
+        height: 109.285713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
