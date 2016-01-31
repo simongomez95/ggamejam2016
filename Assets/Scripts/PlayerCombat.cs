@@ -12,15 +12,17 @@ public class PlayerCombat : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey (KeyCode.Q)) {
+		if (Input.GetButton("Attack")) {
 			atacando = true;
-			animator.SetTrigger ("golpear");
+			animator.SetBool("atacando", true);
+            Debug.Log("atacando");
 		} else {
 			atacando = false;
-		}
+            animator.SetBool("atacando", false);
+        }
 	}
-	void OnTriggerEnter2D(Collider2D other){
-		if (atacando && other.tag == "Enemy") {
+	void OnCollisionEnter2D(Collision2D other){
+		if (atacando && other.gameObject.tag == "Enemy") {
 			Destroy (other.gameObject);
 		}
 	}

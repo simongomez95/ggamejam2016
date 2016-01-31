@@ -12,6 +12,8 @@ GameObject:
   - 114: {fileID: 11416642}
   - 50: {fileID: 5098842}
   - 60: {fileID: 6056330}
+  - 95: {fileID: 9525168}
+  - 114: {fileID: 11478734}
   m_Layer: 0
   m_Name: wolfu
   m_TagString: Animal
@@ -86,6 +88,23 @@ PolygonCollider2D:
       - {x: -.20605135, y: -.0899009705}
       - {x: .0141267776, y: -.0659327507}
       - {x: .100039721, y: -.0919445753}
+--- !u!95 &9525168
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159646}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b48cfeb73a63aba408baea70f8e6d697, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11416642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -94,7 +113,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 159646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2a241594f659774484ce986529335ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 6376e8a14b4c34659a9e90945b1fe3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .100000001
@@ -104,6 +123,17 @@ MonoBehaviour:
   _minJumpForce: 4
   _maxJumpForce: 6
   _leftJumpForce: 1
+--- !u!114 &11478734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8c1744bd85a4c55864c8db0a5f03c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21256676
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -164,6 +194,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: c7c683b3bb307294ab21b4285fbc7aef,
         type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b48cfeb73a63aba408baea70f8e6d697, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 159646}

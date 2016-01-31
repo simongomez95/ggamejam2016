@@ -30,6 +30,8 @@ GameObject:
   - 114: {fileID: 11480946}
   - 50: {fileID: 5039202}
   - 61: {fileID: 6130820}
+  - 95: {fileID: 9507460}
+  - 114: {fileID: 11499806}
   m_Layer: 0
   m_Name: pjPrefab
   m_TagString: Player
@@ -77,7 +79,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &5814126
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -104,6 +106,23 @@ BoxCollider2D:
   m_Offset: {x: 0, y: -.0290280581}
   serializedVersion: 2
   m_Size: {x: .699999988, y: 2.01625443}
+--- !u!95 &9507460
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129180}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3d533cd6e7ca14b6d8c846caae25bf55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11416222
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -127,7 +146,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 129180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2a241594f659774484ce986529335ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 6376e8a14b4c34659a9e90945b1fe3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .100000001
@@ -137,6 +156,17 @@ MonoBehaviour:
   _minJumpForce: 2
   _maxJumpForce: 6
   _leftJumpForce: 1
+--- !u!114 &11499806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8c1744bd85a4c55864c8db0a5f03c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21260650
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -245,6 +275,14 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 7a6da5226fe94d44a92523d38827a485,
         type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3d533cd6e7ca14b6d8c846caae25bf55, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 129180}

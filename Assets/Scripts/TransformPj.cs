@@ -38,6 +38,7 @@ public class TransformPj : MonoBehaviour {
         {
             //anim.SetTrigger("Attack");
             Transformar(1);
+            Debug.Log("Boton");
         }
         else if (Input.GetButton("TransformSquirrel") && allowTransform == true)
         {
@@ -51,7 +52,7 @@ public class TransformPj : MonoBehaviour {
 
     void Transformar(int forma)
     {
-        this.GetComponent<Salto>().enabled = false;
+        this.GetComponent<Salto2>().enabled = false;
         this.GetComponent<Rigidbody2D>().isKinematic = true;
         this.GetComponent<BoxCollider2D>().enabled = false;
         CambiarForma(forma);
@@ -62,12 +63,13 @@ public class TransformPj : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        Debug.Log("ENTRA");
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+        Debug.Log("fdsaf");
         CheckTransformButtons();
 	    if(Transformacion.estadoMundo == 1)
         {
@@ -75,7 +77,7 @@ public class TransformPj : MonoBehaviour {
         }else
         {
             Destroy(animalInstance);
-            this.GetComponent<Salto>().enabled = true;
+            this.GetComponent<Salto2>().enabled = true;
             this.GetComponent<Rigidbody2D>().isKinematic = false;
             this.GetComponent<BoxCollider2D>().enabled = true;
             aura.SetActive(false);

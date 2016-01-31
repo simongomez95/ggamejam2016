@@ -17,7 +17,7 @@ public class Salto2 : MonoBehaviour {
 	public float _minJumpForce;
 	public float _maxJumpForce;
 	public float _leftJumpForce = 1.0f;
-
+    Animator anim;
 	static public bool enAura = false;
 	void OnTriggerEnter2D(Collider2D other)
 	{
@@ -37,7 +37,7 @@ public class Salto2 : MonoBehaviour {
 
 	void Start()
 	{
-		//anim = GetComponent<Animator> ();
+		anim = GetComponent<Animator> ();
 	}
 
 	/*void Update()
@@ -106,7 +106,27 @@ public class Salto2 : MonoBehaviour {
 			}
 		//float input_y = Input.GetAxis("Vertical");
 		float input_x = Input.GetAxis("Horizontal");
-		transform.position = new Vector3(transform.position.x + input_x * speed, transform.position.y, transform.position.z);
+        if (input_x != 0)
+        {
+            if (input_x < 0)
+            {
+                //m_FacingRight = false;
+                transform.localRotation = Quaternion.Euler(0, 180, 0);
+            }
+            else
+            {
+                //m_FacingRight = true;
+                transform.localRotation = Quaternion.Euler(0, 0, 0);
+            }
+            anim.SetBool("corriendo", true);
+            Debug.Log("corriendo");
+
+        }
+        else
+        {
+            anim.SetBool("corriendo", false);
+        }
+        transform.position = new Vector3(transform.position.x + input_x * speed, transform.position.y, transform.position.z);
 		}
 
 		
@@ -125,4 +145,12 @@ public class Salto2 : MonoBehaviour {
 		rb2D.AddForce(resolvedJump, ForceMode2D.Impulse);
 		Debug.Log(resolvedJump.ToString());
 	}
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Environment")
+        {
+            numSaltos = 0;
+        }
+    }
 }

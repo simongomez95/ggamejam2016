@@ -29,10 +29,10 @@ public class Transformacion : MonoBehaviour {
 
         if (tiempoTrans < 0)
         {
-            if (Salto.enAura == false)
+            if (Salto2.enAura == false)
             {
-                Debug.Log("WTF");
-                Application.Quit();
+
+                Application.LoadLevel("ads");
             }
             else
             {

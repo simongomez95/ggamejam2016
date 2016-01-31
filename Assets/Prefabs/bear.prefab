@@ -12,6 +12,8 @@ GameObject:
   - 114: {fileID: 11475944}
   - 50: {fileID: 5090770}
   - 60: {fileID: 6061266}
+  - 95: {fileID: 9502068}
+  - 114: {fileID: 11474678}
   m_Layer: 0
   m_Name: bear
   m_TagString: Bear
@@ -90,6 +92,34 @@ PolygonCollider2D:
       - {x: -.0500000007, y: -.239999995}
       - {x: -.0500000007, y: -.330000013}
       - {x: -.230000004, y: -.349999994}
+--- !u!95 &9502068
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167696}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5311b36cec600a14d821c2c8313723df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11474678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8c1744bd85a4c55864c8db0a5f03c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11475944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -98,7 +128,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 167696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2a241594f659774484ce986529335ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 6376e8a14b4c34659a9e90945b1fe3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .100000001

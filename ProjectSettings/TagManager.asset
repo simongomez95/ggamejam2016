@@ -8,6 +8,8 @@ TagManager:
   - Aura
   - Animal
   - Bear
+  - Movible
+  - Enemy
   layers:
   - Default
   - TransparentFX
