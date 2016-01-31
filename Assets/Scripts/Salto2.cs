@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Salto2 : MonoBehaviour {
 	bool salto = true;
-	public static  int numSaltos=0;
+	int numSaltos=0;
 	public float speed;
 	public GameObject bullet;
 	float movingSpeed = 0;
