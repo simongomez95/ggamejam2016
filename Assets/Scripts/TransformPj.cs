@@ -69,7 +69,6 @@ public class TransformPj : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log("fdsaf");
         CheckTransformButtons();
 	    if(Transformacion.estadoMundo == 1)
         {

@@ -88,7 +88,7 @@ public class Salto2 : MonoBehaviour {
 		rb2D.AddForce(resolvedJump, ForceMode2D.Impulse);
 		Debug.Log(resolvedJump.ToString());
 	}
-<<<<<<< HEAD
+
 
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -97,12 +97,4 @@ public class Salto2 : MonoBehaviour {
             numSaltos = 0;
         }
     }
-=======
-	void OnCollisionEnter2D(Collision2D other){
-		if (other.gameObject.tag == "Environment") {
-			numSaltos = 0;
-		}
-	}
-
->>>>>>> 270135affaff5dffeaaea507fd94f6a34c7f1b88
 }
