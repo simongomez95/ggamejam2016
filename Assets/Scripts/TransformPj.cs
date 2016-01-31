@@ -56,6 +56,7 @@ public class TransformPj : MonoBehaviour {
         this.GetComponent<Rigidbody2D>().isKinematic = true;
         this.GetComponent<BoxCollider2D>().enabled = false;
         CambiarForma(forma);
+        CamaraSencilla.target = animalInstance.transform;
         // this.GetComponent<PlayerScript>().enabled = false;        
         allowTransform = false;
         Transformacion.estadoMundo = 1;
