@@ -55,7 +55,7 @@ public class Salto2 : MonoBehaviour {
 	{
         if(transform.position.y < -16)
         {
-            Application.Quit();
+            Application.LoadLevel("ads");
         }
         
         if (Input.GetButton ("Jump")) {
