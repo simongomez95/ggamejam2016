@@ -14,7 +14,7 @@ GameObject:
   - 114: {fileID: 11400880}
   m_Layer: 0
   m_Name: tree front
-  m_TagString: Environment
+  m_TagString: Movible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 180.039993, y: 26.3600006, z: 0}
+  m_LocalPosition: {x: 180.039993, y: 23.25, z: 0}
   m_LocalScale: {x: 1.9625001, y: 5.65257168, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -42,7 +42,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -57,9 +57,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: .127458498, y: 0}
+  m_Offset: {x: -.0708085522, y: .282990247}
   serializedVersion: 2
-  m_Size: {x: .570532262, y: 4.44000006}
+  m_Size: {x: .438350588, y: 3.87401628}
 --- !u!114 &11400880
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -97,7 +97,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 72ed5d126a9132f488cf2ca9a1e99f13, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fee83933a0ccf694aba6c46d19695413, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -105,7 +105,12 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fee83933a0ccf694aba6c46d19695413,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 186798}

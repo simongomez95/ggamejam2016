@@ -19,6 +19,7 @@ public class Salto2 : MonoBehaviour {
 	public float _maxJumpForce;
 	public float _leftJumpForce = 1.0f;
     Animator anim;
+    public static int pickups=0;
     bool m_FacingRight = true;
     static public bool enAura = false;
 	void OnTriggerEnter2D(Collider2D other)
@@ -27,6 +28,15 @@ public class Salto2 : MonoBehaviour {
 		{
 			enAura = true;
 		}
+        if (other.gameObject.tag == "Pickup")
+        {
+            pickups++;
+            Destroy(other.gameObject);
+        }
+        if(other.gameObject.tag == "Finish")
+        {
+            Arbol.terminado = true;
+        }
 	}
 
 	void OnTriggerExit2D(Collider2D other)

@@ -14,6 +14,7 @@ GameObject:
   - 60: {fileID: 6056330}
   - 95: {fileID: 9525168}
   - 114: {fileID: 11478734}
+  - 61: {fileID: 6146412}
   m_Layer: 0
   m_Name: wolfu
   m_TagString: Animal
@@ -28,8 +29,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159646}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 205.809219, y: 19.1918755, z: 0}
-  m_LocalScale: {x: 1.86341226, y: 1.8634119, z: 1.8634119}
+  m_LocalPosition: {x: 53.8860435, y: 18.0722675, z: 0}
+  m_LocalScale: {x: 2.14557266, y: 2.14557195, z: 2.14557195}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -55,7 +56,7 @@ PolygonCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159646}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
@@ -88,6 +89,19 @@ PolygonCollider2D:
       - {x: -.20605135, y: -.0899009705}
       - {x: .0141267776, y: -.0659327507}
       - {x: .100039721, y: -.0919445753}
+--- !u!61 &6146412
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159646}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: .0182585511}
+  serializedVersion: 2
+  m_Size: {x: 1.48000002, y: .693483412}
 --- !u!95 &9525168
 Animator:
   serializedVersion: 3
@@ -161,7 +175,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c7c683b3bb307294ab21b4285fbc7aef, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 528138f3194ebae42a73836bccd9e8ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -193,7 +207,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c7c683b3bb307294ab21b4285fbc7aef,
+      objectReference: {fileID: 21300002, guid: 528138f3194ebae42a73836bccd9e8ae,
         type: 3}
     - target: {fileID: 0}
       propertyPath: m_Controller
