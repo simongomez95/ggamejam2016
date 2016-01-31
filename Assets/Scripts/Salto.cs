@@ -108,7 +108,9 @@ public class Salto : MonoBehaviour {
 		//float input_y = Input.GetAxis("Vertical");
 		float input_x = Input.GetAxis("Horizontal");
         if (input_x != 0) {
-        	anim.SetBool ("corriendo", true);			
+        	anim.SetBool ("corriendo", true);
+            Debug.Log("corriendo");
+            			
         } else {
         	anim.SetBool("corriendo", false);
         }
