@@ -10,24 +10,63 @@ public class TransformPj : MonoBehaviour {
     public GameObject squirrel;
     public GameObject wolf;
 
-    GameObject animalInstance;
+    GameObject animalInstance = null;
+    GameObject newAnimalInstance = null;
 
     bool allowTransform = true;
 
 
+    IEnumerator esperar()
+    {
+        yield return new WaitForSeconds(1f);
+        allowTransform = true;
+    }
 
     public void CambiarForma(int forma)
     {
         switch (forma)
         {
             case 1:
-                animalInstance = Instantiate(bear, transform.position, Quaternion.identity) as GameObject;
+                if (animalInstance == null)
+                {
+                    animalInstance = Instantiate(bear, transform.position, Quaternion.identity) as GameObject;
+                }
+                else
+                {
+                    newAnimalInstance = Instantiate(bear, animalInstance.transform.position, Quaternion.identity) as GameObject;
+                    Destroy(animalInstance);
+                    animalInstance = newAnimalInstance;
+                    //Destroy(newAnimalInstance);
+                    //newAnimalInstance = null;
+                }
                 break;
             case 2:
-                animalInstance = Instantiate(squirrel, transform.position, Quaternion.identity) as GameObject;
+                if (animalInstance == null)
+                {
+                    animalInstance = Instantiate(squirrel, transform.position, Quaternion.identity) as GameObject;
+                }
+                else
+                {
+                    newAnimalInstance = Instantiate(squirrel, animalInstance.transform.position, Quaternion.identity) as GameObject;
+                    Destroy(animalInstance);
+                    animalInstance = newAnimalInstance;
+                    //Destroy(newAnimalInstance);
+                    //newAnimalInstance = null;
+                }
                 break;
             case 3:
-                animalInstance = Instantiate(wolf, transform.position, Quaternion.identity) as GameObject;
+                if (animalInstance == null)
+                {
+                    animalInstance = Instantiate(wolf, transform.position, Quaternion.identity) as GameObject;
+                }
+                else
+                {
+                    newAnimalInstance = Instantiate(wolf, animalInstance.transform.position, Quaternion.identity) as GameObject;
+                    Destroy(animalInstance);
+                    animalInstance = newAnimalInstance;
+                    //Destroy(newAnimalInstance);
+                    //newAnimalInstance = null;
+                }
                 break;
         }
     }
@@ -59,6 +98,7 @@ public class TransformPj : MonoBehaviour {
         CamaraSencilla.target = animalInstance.transform;
         // this.GetComponent<PlayerScript>().enabled = false;        
         allowTransform = false;
+        StartCoroutine(esperar());
         Transformacion.estadoMundo = 1;
     }
 
@@ -76,7 +116,9 @@ public class TransformPj : MonoBehaviour {
             aura.SetActive(true);
         }else
         {
+            
             Destroy(animalInstance);
+            
             this.GetComponent<Salto2>().enabled = true;
             this.GetComponent<Rigidbody2D>().isKinematic = false;
             this.GetComponent<BoxCollider2D>().enabled = true;

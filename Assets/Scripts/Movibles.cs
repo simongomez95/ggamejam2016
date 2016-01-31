@@ -7,13 +7,13 @@ public class Movibles : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player" || other.gameObject.tag == "Animal")
         {
-            GetComponent<Rigidbody2D>().isKinematic = true;
+            GetComponent<Rigidbody2D>().mass = 100;
         }
     }
 
     void OnCollisionExit2D(Collision2D other)
     {
-        GetComponent<Rigidbody2D>().isKinematic = false;
+        GetComponent<Rigidbody2D>().mass = 1;
     }
 
 	// Use this for initialization
