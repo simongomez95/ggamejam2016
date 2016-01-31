@@ -42,7 +42,15 @@ public class Salto2 : MonoBehaviour {
 	}
 	void Update ()
 	{
-			if (Input.GetButton ("Jump")) {
+        if(transform.rotation.z < -45)
+        {
+            transform.rotation = Quaternion.Euler(0.0f, 0.0f, -45.0f);
+        }
+        if (transform.rotation.z > 45)
+        {
+            transform.rotation = Quaternion.Euler(0.0f, 0.0f, 45.0f);
+        }
+        if (Input.GetButton ("Jump")) {
 			numSaltos += 1;
 			if (numSaltos == 1 ||numSaltos == 2) {
 				Jump ();

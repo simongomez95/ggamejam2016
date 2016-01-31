@@ -40,8 +40,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0e723b5f2cfab45bc6056610f7b02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteTrans: {fileID: 21300000, guid: 258de8e63e31a0342bf79682c0216c8d, type: 3}
-  spriteNormal: {fileID: 21300000, guid: 86971aa214623d345853c59694bf1a7a, type: 3}
+  spriteTrans: {fileID: 21300000, guid: 509cf35b1550b194cbbee0b8e3b682db, type: 3}
+  spriteNormal: {fileID: 21300000, guid: 7d349377c5162204e9c74c4c51141462, type: 3}
 --- !u!212 &21248520
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -68,7 +68,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 86971aa214623d345853c59694bf1a7a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d349377c5162204e9c74c4c51141462, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -80,7 +80,17 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: spriteNormal
       value: 
-      objectReference: {fileID: 21300000, guid: 86971aa214623d345853c59694bf1a7a,
+      objectReference: {fileID: 21300000, guid: 7d349377c5162204e9c74c4c51141462,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: spriteTrans
+      value: 
+      objectReference: {fileID: 21300000, guid: 509cf35b1550b194cbbee0b8e3b682db,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7d349377c5162204e9c74c4c51141462,
         type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

@@ -43,7 +43,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
-  m_GravityScale: .5
+  m_GravityScale: .800000012
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -122,6 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6376e8a14b4c34659a9e90945b1fe3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tope: 5
   speed: .150000006
   bullet: {fileID: 0}
   _timeHeld: 0
@@ -186,7 +187,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_GravityScale
-      value: .5
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Sprite
@@ -197,6 +198,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d3a13fd874f085843969b1d16c932907, type: 2}
+    - target: {fileID: 0}
+      propertyPath: tope
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 145548}

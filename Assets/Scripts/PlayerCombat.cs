@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PlayerCombat : MonoBehaviour {
-	private CircleCollider2D rangoAtaque;
+	//private CircleCollider2D rangoAtaque;
 	private Animator animator; 
 	bool atacando = false;
 	// Use this for initialization

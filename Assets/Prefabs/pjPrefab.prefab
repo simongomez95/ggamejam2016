@@ -115,7 +115,7 @@ Animator:
   m_GameObject: {fileID: 129180}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d533cd6e7ca14b6d8c846caae25bf55, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -149,12 +149,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6376e8a14b4c34659a9e90945b1fe3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tope: 4
   speed: .100000001
   bullet: {fileID: 0}
   _timeHeld: 0
   _timeForFullJump: 2
-  _minJumpForce: 2
-  _maxJumpForce: 6
+  _minJumpForce: 1
+  _maxJumpForce: 3
   _leftJumpForce: 1
 --- !u!114 &11499806
 MonoBehaviour:
@@ -282,6 +283,18 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: tope
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _minJumpForce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _maxJumpForce
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
