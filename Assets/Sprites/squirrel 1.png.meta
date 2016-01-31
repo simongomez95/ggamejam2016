@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 89c541f17666457489f3a2cf7148ac37
+timeCreated: 1454219085
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: squirrel 1_0
+    21300002: squirrel 1_1
+    21300004: squirrel 1_2
+    21300006: squirrel 1_3
+    21300008: squirrel 1_4
+    21300010: squirrel 1_5
+    21300012: squirrel 1_6
+    21300014: squirrel 1_7
+    21300016: squirrel 1_8
+    21300018: squirrel 1_9
+    21300020: squirrel 1_10
+    21300022: squirrel 1_11
+    21300024: squirrel 1_12
+    21300026: squirrel 1_13
+    21300028: squirrel 1_14
+    21300030: squirrel 1_15
+    21300032: squirrel 1_16
+    21300034: squirrel 1_17
+    21300036: squirrel 1_18
+    21300038: squirrel 1_19
+    21300040: squirrel 1_20
+    21300042: squirrel 1_21
+    21300044: squirrel 1_22
+    21300046: squirrel 1_23
+    21300048: squirrel 1_24
+    21300050: squirrel 1_25
+    21300052: squirrel 1_26
+    21300054: squirrel 1_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: squirrel 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 312.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 312.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 312.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 312.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 312.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 312.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 208.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 208.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 208.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 208.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_12
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 208.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_13
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 208.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 104.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_16
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 104.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 104.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 104.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_19
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 104.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_20
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 104.75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: .75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: .75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_23
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: .75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_24
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: .75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_25
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: .75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_26
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: .75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: squirrel 1_27
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: .75
+        width: 146.285721
+        height: 104.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
