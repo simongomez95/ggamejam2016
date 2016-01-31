@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 60ad4cfe8c1d37e4cadeb77632cf292c
+timeCreated: 1454263419
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: oso caminando_0
+    21300002: oso caminando_1
+    21300004: oso caminando_2
+    21300006: oso caminando_3
+    21300008: oso caminando_4
+    21300010: oso caminando_5
+    21300012: oso caminando_6
+    21300014: oso caminando_7
+    21300016: oso caminando_8
+    21300018: oso caminando_9
+    21300020: oso caminando_10
+    21300022: oso caminando_11
+    21300024: oso caminando_12
+    21300026: oso caminando_13
+    21300028: oso caminando_14
+    21300030: oso caminando_15
+    21300032: oso caminando_16
+    21300034: oso caminando_17
+    21300036: oso caminando_18
+    21300038: oso caminando_19
+    21300040: oso caminando_20
+    21300042: oso caminando_21
+    21300044: oso caminando_22
+    21300046: oso caminando_23
+    21300048: oso caminando_24
+    21300050: oso caminando_25
+    21300052: oso caminando_26
+    21300054: oso caminando_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: oso caminando_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 921
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 919
+        width: 164
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 918
+        width: 165
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_3
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 916
+        width: 166
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_4
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 916
+        width: 166
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 808
+        width: 167
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 809
+        width: 167
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 811
+        width: 169
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 813
+        width: 172
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_9
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 813
+        width: 175
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 705
+        width: 172
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 704
+        width: 169
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_12
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 702
+        width: 167
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_13
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 701
+        width: 167
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_14
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 700
+        width: 167
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 592
+        width: 166
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_16
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 593
+        width: 165
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_17
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 594
+        width: 165
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_18
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 595
+        width: 165
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_19
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 595
+        width: 164
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 486
+        width: 165
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_21
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 485
+        width: 165
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_22
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 484
+        width: 166
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_23
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 484
+        width: 167
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_24
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 485
+        width: 167
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 378
+        width: 167
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_26
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 380
+        width: 169
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: oso caminando_27
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 381
+        width: 172
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
