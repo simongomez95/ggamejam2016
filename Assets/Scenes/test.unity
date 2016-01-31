@@ -374,7 +374,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 380292280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.7900009, y: -4.51000023, z: 0}
+  m_LocalPosition: {x: 32.75, y: -.25, z: 0}
   m_LocalScale: {x: .706758142, y: .706757128, z: .706757128}
   m_Children: []
   m_Father: {fileID: 0}
@@ -694,11 +694,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 498174, guid: cfbbb2c10930642779529534dd300bca, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.89999998
+      value: 1.92999995
       objectReference: {fileID: 0}
     - target: {fileID: 498174, guid: cfbbb2c10930642779529534dd300bca, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.48000002
+      value: -1.13
       objectReference: {fileID: 0}
     - target: {fileID: 498174, guid: cfbbb2c10930642779529534dd300bca, type: 2}
       propertyPath: m_LocalPosition.z
@@ -723,10 +723,6 @@ Prefab:
     - target: {fileID: 498174, guid: cfbbb2c10930642779529534dd300bca, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11480946, guid: cfbbb2c10930642779529534dd300bca, type: 2}
-      propertyPath: _maxJumpForce
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cfbbb2c10930642779529534dd300bca, type: 2}
