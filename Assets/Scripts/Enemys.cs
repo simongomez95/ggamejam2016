@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Attack : MonoBehaviour {
+public class enemys : MonoBehaviour {
+	private Rigidbody2D enemigoBody;
 
 	// Use this for initialization
 	void Start () {
@@ -10,6 +11,6 @@ public class Attack : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 }
