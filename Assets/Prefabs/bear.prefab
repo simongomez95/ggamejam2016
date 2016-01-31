@@ -11,10 +11,10 @@ GameObject:
   - 212: {fileID: 21205786}
   - 114: {fileID: 11475944}
   - 50: {fileID: 5090770}
-  - 61: {fileID: 6134396}
+  - 60: {fileID: 6061266}
   m_Layer: 0
   m_Name: bear
-  m_TagString: Animal
+  m_TagString: Bear
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167696}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.04699993, y: -.758000016, z: 0}
+  m_LocalPosition: {x: 3.56205654, y: -1.34442353, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,8 +47,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &6134396
-BoxCollider2D:
+--- !u!60 &6061266
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -58,8 +58,38 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: .699999988, y: .709999979}
+  m_Points:
+    m_Paths:
+    - - {x: .337163687, y: -.386692762}
+      - {x: .209999993, y: -.319999993}
+      - {x: .422757864, y: -.203699589}
+      - {x: .506849766, y: -.246928215}
+      - {x: .583464146, y: -.220000029}
+      - {x: .538961887, y: -.115966201}
+      - {x: .56692791, y: -.016300559}
+      - {x: .460000008, y: .150000006}
+      - {x: .465332985, y: .0586799383}
+      - {x: .25999999, y: .349999994}
+      - {x: .129999995, y: .349999994}
+      - {x: .00999999978, y: .330000013}
+      - {x: -.289999992, y: .349999994}
+      - {x: -.340000004, y: .319999993}
+      - {x: -.449999988, y: .25}
+      - {x: -.550000012, y: .159999996}
+      - {x: -.600000024, y: .0399999991}
+      - {x: -.517320156, y: -.133307219}
+      - {x: -.546849728, y: -.360078454}
+      - {x: -.477006674, y: -.396849632}
+      - {x: -.393542767, y: -.423621058}
+      - {x: -.240313768, y: -.410470843}
+      - {x: .0174369812, y: -.40716362}
+      - {x: .249372482, y: -.40716362}
+      - {x: .350313663, y: -.407006741}
+      - {x: .347163677, y: -.400156856}
+    - - {x: -.25, y: -.239999995}
+      - {x: -.0500000007, y: -.239999995}
+      - {x: -.0500000007, y: -.330000013}
+      - {x: -.230000004, y: -.349999994}
 --- !u!114 &11475944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -104,7 +134,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 01d92577deedc3e41997bdfd38a6c672, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af268d25edf2ccf45b2a5aa85dd4779a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -127,8 +157,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
-      value: Animal
+      value: Bear
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: af268d25edf2ccf45b2a5aa85dd4779a,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 167696}
