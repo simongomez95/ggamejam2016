@@ -88,9 +88,9 @@ public class Salto2 : MonoBehaviour {
 	*/
 	void Update ()
 	{
-		
+        
 
-			salto = false;
+        salto = false;
 			if (Input.GetButtonDown ("Jump")) {
 				_timeHeld = 0f;
 			}
@@ -98,9 +98,10 @@ public class Salto2 : MonoBehaviour {
 				_timeHeld += Time.deltaTime;
 			}
 			if (Input.GetButtonUp ("Jump")) {
-				numSaltos += 0;
+				numSaltos += 1;
 				if (numSaltos < 2) {
 					Jump ();
+                Debug.Log(numSaltos.ToString());
 				}
 			}
 		//float input_y = Input.GetAxis("Vertical");

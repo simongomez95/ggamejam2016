@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class PlayerCombat : MonoBehaviour {
-	public GameObject Enemy;
 	private CircleCollider2D rangoAtaque;
 	private Animator animator; 
 	bool atacando = false;

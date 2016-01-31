@@ -5,7 +5,7 @@ public class Transformacion : MonoBehaviour {
 
     //public GameObject player;
     public TransformPj transPj;
-    public Salto plyscr;
+    public Salto2 plyscr;
 
     public Transform player;
 
