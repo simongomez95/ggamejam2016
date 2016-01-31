@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 528138f3194ebae42a73836bccd9e8ae
-timeCreated: 1454261634
+timeCreated: 1454262823
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -76,7 +76,7 @@ TextureImporter:
     - name: Lobo caminata_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 68
         y: 576
         width: 148
         height: 73
@@ -86,7 +86,7 @@ TextureImporter:
     - name: Lobo caminata_1
       rect:
         serializedVersion: 2
-        x: 148
+        x: 216
         y: 576
         width: 148
         height: 73
@@ -96,7 +96,7 @@ TextureImporter:
     - name: Lobo caminata_2
       rect:
         serializedVersion: 2
-        x: 296
+        x: 364
         y: 576
         width: 148
         height: 73
@@ -106,17 +106,17 @@ TextureImporter:
     - name: Lobo caminata_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 501
-        width: 147
-        height: 73
+        x: 68
+        y: 500
+        width: 148
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo caminata_4
       rect:
         serializedVersion: 2
-        x: 148
+        x: 216
         y: 500
         width: 148
         height: 74
@@ -126,19 +126,19 @@ TextureImporter:
     - name: Lobo caminata_5
       rect:
         serializedVersion: 2
-        x: 296
-        y: 500
-        width: 148
-        height: 74
+        x: 365
+        y: 501
+        width: 147
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo caminata_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 424
-        width: 136
+        x: 98
+        y: 423
+        width: 138
         height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -146,7 +146,7 @@ TextureImporter:
     - name: Lobo caminata_7
       rect:
         serializedVersion: 2
-        x: 137
+        x: 237
         y: 423
         width: 138
         height: 75
@@ -156,9 +156,9 @@ TextureImporter:
     - name: Lobo caminata_8
       rect:
         serializedVersion: 2
-        x: 276
-        y: 423
-        width: 138
+        x: 376
+        y: 424
+        width: 136
         height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -166,37 +166,37 @@ TextureImporter:
     - name: Lobo caminata_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 346
-        width: 296
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Lobo caminata_10
-      rect:
-        serializedVersion: 2
-        x: 296
+        x: 68
         y: 345
         width: 148
         height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lobo caminata_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 346
+        width: 296
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo caminata_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 267
-        width: 139
-        height: 77
+        x: 96
+        y: 265
+        width: 137
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo caminata_12
       rect:
         serializedVersion: 2
-        x: 140
+        x: 234
         y: 267
         width: 138
         height: 77
@@ -206,19 +206,19 @@ TextureImporter:
     - name: Lobo caminata_13
       rect:
         serializedVersion: 2
-        x: 279
-        y: 265
-        width: 137
-        height: 78
+        x: 373
+        y: 267
+        width: 139
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo caminata_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 187
-        width: 138
+        x: 93
+        y: 185
+        width: 141
         height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -226,7 +226,7 @@ TextureImporter:
     - name: Lobo caminata_15
       rect:
         serializedVersion: 2
-        x: 139
+        x: 235
         y: 186
         width: 138
         height: 79
@@ -236,9 +236,9 @@ TextureImporter:
     - name: Lobo caminata_16
       rect:
         serializedVersion: 2
-        x: 278
-        y: 185
-        width: 141
+        x: 374
+        y: 187
+        width: 138
         height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -246,17 +246,17 @@ TextureImporter:
     - name: Lobo caminata_17
       rect:
         serializedVersion: 2
-        x: 0
-        y: 106
+        x: 96
+        y: 102
         width: 138
-        height: 79
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo caminata_18
       rect:
         serializedVersion: 2
-        x: 139
+        x: 235
         y: 104
         width: 138
         height: 80
@@ -266,27 +266,27 @@ TextureImporter:
     - name: Lobo caminata_19
       rect:
         serializedVersion: 2
-        x: 278
-        y: 102
+        x: 374
+        y: 106
         width: 138
-        height: 81
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo caminata_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 23
-        width: 138
-        height: 82
+        x: 91
+        y: 17
+        width: 143
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Lobo caminata_21
       rect:
         serializedVersion: 2
-        x: 139
+        x: 235
         y: 20
         width: 138
         height: 82
@@ -296,10 +296,10 @@ TextureImporter:
     - name: Lobo caminata_22
       rect:
         serializedVersion: 2
-        x: 278
-        y: 17
-        width: 143
-        height: 84
+        x: 374
+        y: 23
+        width: 138
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
